@@ -6,10 +6,6 @@ Simulates retrieval-augmented inference failures and compares:
   (B) PROPOSED — physical memory-address-mapped selective unmap + partial replay
                  (with fragmentation-aware consolidation OR sparse-kernel branch)
 
-This produces the quantitative data needed for IDF Section 8
-(Experimental Validation Results), since no production implementation
-exists yet (TRL 2-3). Numbers are simulation-based, not measured on
-real GPU hardware — label them as such in the IDF.
 
 Run: python3 kv_cache_recovery_sim.py
 Outputs: results.csv, summary.json, fragmentation_latency_chart.png
