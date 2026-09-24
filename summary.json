@@ -1,0 +1,14 @@
+{
+  "num_trials": 500,
+  "mean_cost_savings_pct": 91.95,
+  "median_cost_savings_pct": 98.0,
+  "stdev_cost_savings_pct": 13.11,
+  "min_cost_savings_pct": 19.14,
+  "max_cost_savings_pct": 98.01,
+  "mean_fragmentation_ratio": 0.26,
+  "pct_trials_escalated_to_full_replay": 22.8,
+  "fragmentation_branch_distribution": {
+    "none": 411,
+    "sparse_kernel": 89
+  }
+}
